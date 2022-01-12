@@ -1,0 +1,263 @@
+body{
+    font-size: 14px;
+    font-family: Helvetica,Arial, sans-serif;
+}
+.main7{
+    overflow: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo p {
+    color:black;
+    
+}
+.logoo p{
+    color: black;
+}
+.logoo {
+    padding-left: 20px;
+    margin-top: -29px;
+    text-decoration: none;
+}
+.loog{
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+}
+.logoo{
+    
+    float: left;
+    font-size: 13px;   
+}
+.logoo img{
+    
+    width:15px;
+    height: auto;
+    padding-left:41px ;
+}
+.logo img{
+    width:20px;
+    height: auto;
+    padding-left:41px ;
+}
+
+.logo {
+    text-decoration: none;
+   margin-left: -390px;
+}
+.contaiter{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    padding-top:10px ;
+    
+}
+
+#header{
+    position: fixed;
+
+    background:white ;
+    border-bottom: 1px solid black;
+}
+nav #main-menu li a{
+    list-style: none;
+    text-decoration: none;
+    color:#34495E ;
+    display: block;
+    padding: 8px 20px; 
+}
+nav #main-menu li a:hover{
+    color: black;
+    border-bottom: 1.5px solid black ;
+}
+
+#toggle{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 8px;
+   background:white ;
+    border-bottom: 1px solid black;
+    display: none;  
+    cursor: pointer;
+}
+.contai{
+    padding: 0px;
+    margin: 0px;
+ 
+}
+.contai3 ul{
+    list-style: none;
+}
+.bannee{
+    padding-top: 58px;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background:#ffffff;
+    float: left; 
+}
+.h1{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background: #f15a25 ;
+    padding-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+.contai3{
+    padding: 0;
+    margin-left:0;
+}
+.contai3 li a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-left: 15px ;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    border-radius:10PX ;
+    border: 1px solid wheat;
+}
+.contai3 img{
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.imgg{
+    width: 150px;
+    padding-left: 34px;
+}
+.imgg:hover{
+    transform: scale(1.05);
+}
+.contai3 p{
+    padding-top: 8px;
+    padding-left: 15px;
+}
+.contai3 li a:hover{
+    border: 1px solid rgb(49, 48, 48)  ;
+  
+}
+.tragop{
+    color: #FF0000    ;
+
+}
+.main2{
+    width: 30%;
+    height: 1000px;
+    background: brown;
+    float: left;
+}
+
+.fonten{
+    width: 100%;
+    height: 100px;
+    background: black;
+    float: left;
+    text-align: center;
+}
+.h3{
+    float: right;
+    color: white;
+   margin-top: -29px;
+   margin-right: 10px;
+   text-decoration: none;
+}
+.h4{
+    margin-top: 10px;
+    text-align: center;
+}
+.sub-menu{
+    margin-top: 16px;
+    font-size: 15px;
+  
+}
+.sub-menu li{
+
+    list-style: none;
+    float: left;
+     border: 1px solid black;
+     margin-left: 5px;
+}
+.sub-menu li a{
+    text-decoration: none ;
+    color: black;
+    display: block;
+   
+}
+.sub-menu li:hover{
+    background-color: #f15a25;
+    color: white;
+}
+.sub-menu{
+    margin-left: 175px;
+}
+.sub-menu li{
+    border-radius: 10px;
+    width: 80px;
+   margin-top: 5px;
+   text-align: center;
+   padding-bottom: 1px;
+}
+#loginn{
+    height: 500px;
+    background:white;
+}
+.heat{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#login{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(241, 233, 216);
+   
+}
+.from-group{
+ 
+   margin-bottom: 10px;
+   font-size: 20px;
+   
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.form-submit{
+    width: 200px;
+    height: 25px;
+    background: rgb(228, 71, 71);
+    margin-bottom:20px ;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.log2{
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    height: 25px;
+    width: 200px;
+}
+.quen a {
+text-decoration: none;
+color: black;
+}
+.dangkii{
+    padding-top: 10px;
+}
