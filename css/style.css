@@ -1,0 +1,421 @@
+.app{
+    font-family: "Times New Roman", Times, serif;
+    overflow: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 120px;
+    background: #094383;
+   
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+ 
+}
+.header_list{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0; 
+}
+.header_item1,
+.header_item{
+    display: inline-block;
+    padding: 0 8px;
+  
+}
+.header_item1{
+    border-right:1px solid white ;
+}
+.header_item1,
+.header_item,
+.header_link{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.header_item_strong1,
+.header_item_strong{
+    display: inline-block;
+    padding: 0 8px;
+    font-weight: 500;
+}
+.header_item_strong1{
+    border-right: 1px solid white;
+}
+
+.icon{
+    font-size: 15px;
+    color: white;
+   
+}
+.logo{
+    padding-left: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 12px;
+    text-decoration: none;
+}
+.logomobi{
+    display: none;
+}
+
+.header_seach_logo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_seach{
+   display: flex;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+}
+.input{
+    border-radius: 3px;
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+    border:none;
+    outline: none;
+}
+.cart{
+    width: 150px;
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    text-align:center ;
+    align-items: center;
+   
+}
+.icon2 {
+    
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.cart a{
+    color: #f01a48;
+    text-decoration: none;
+} 
+.cart3{
+    padding: 10px;
+    display: none;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.cart2{
+    padding-top: 10px;
+} 
+.header-mobi{
+    display: flex;
+}
+.banne{
+    padding-top: 120px;
+}
+.banner{
+    width: 100%;
+    margin-top: 5px;
+   
+}
+.banne3,
+.banne2{
+    margin-top: -2px;
+    float: left;
+}
+.giohang{
+    width: 291px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    display: none;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+.giohang1:hover .giohang{
+    display: block;
+}
+.thongbao{
+    position:absolute;
+    width: 279px;
+    height: 150px;
+    margin-top: 2px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    display: none;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+.thongbao1:hover .thongbao{
+    display: block;
+}
+.main{
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: auto; 
+}
+.imgg{
+    width:95% ;
+    text-align: center;
+    margin-right: 15px;
+}
+.columm{
+    background-color: #ffffff;
+    width: 16%;
+    height: auto;
+    padding-top: 10px;
+    padding:10px;
+    margin: 5px 0px 10px 10px;
+    padding-left: 20px;
+    border-radius:5px ;
+
+}
+.columm a{
+    text-decoration: none;
+    color: black;
+}
+.roww{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 23px;
+    
+}
+.xemtheem{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.xemtheem a{
+    text-decoration: none;
+    color: black;
+}
+.ten{
+    margin-top: 10px;
+}
+.gia{
+    color: #ee4d2d;
+    margin-top:5px ;
+    margin-bottom: 3px;
+}
+.tragop{
+    margin-bottom: 5px;
+    color: #ee4d2d;
+
+}
+.giagoc{
+    font-size: 13px;
+    color: rgb(68, 66, 66);
+}
+.tieude{
+
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f01a48;
+    margin-top: 0px; 
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.ban{
+    display: flex;
+    justify-content:space-between ;
+}
+.bann{
+    color: rgb(68, 66, 66);
+    font-size: 13px;
+}
+.columm:hover{
+    border: 1px solid #ee4d2d;
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #094383;
+    padding: 10px;
+    border-top:3px solid #ee4d2d ;
+}
+.danhmuc{
+    margin-top: 10px;
+    margin-left: 24%;
+}
+.hang {
+   
+    list-style: none;
+    display:flex;
+}
+.hang1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+  
+}
+.a2 {
+    border-right:1px solid white ;
+}
+.header_item_strong1,
+.header_item_strong,
+.header_link:hover{
+    color: black;
+}
+.seach{
+  width: 50px;
+  height: 30px;
+  background-color: #094383;
+  margin:5px ;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.icon4{
+    padding-top:7px ;
+    color: white;
+}
+.tieu{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+.contacc{
+    width: 100%;
+    color: white;
+   float: left;
+   margin-top: 10px;
+   margin-bottom: 30px;
+
+}
+.tongdai,
+.điachi li{
+   
+  list-style: none;
+}
+.iconn{
+    margin-right: 6px;
+}
+.điachi{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 33.33333%;
+    float: left;
+}
+.tongdai{
+    flex-wrap: wrap;
+    float: left;
+    text-align: center;
+    width: 33.33333%;
+}
+.item-contac{
+    margin-top: 10px;
+}
+.ketnoi{
+    flex-wrap: wrap;
+    float: left;
+    text-align: center;
+    width: 33.33333%;
+   
+}
+.a33{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+.tieu{
+    margin-bottom: 10px;
+}
+.itemhotro{
+    font-weight: 500;
+}
+.copy{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.yelltext{
+    color: yellow;
+}
+.submit4{
+    margin-top: 5px;
+    width: 493px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.submit1{
+    padding-left: 5px;
+    width: 241px;
+    height: 30px;
+}
+.contact{
+    display: flex;
+    background-color: #f5f5f5;
+ 
+}
+.lienhe1{
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 20px;
+    width: 100%; 
+    margin-bottom: 70px; 
+}
+
+.submit5{
+    margin-top: 5px;
+    height: 30px;
+    width:500px;
+
+}
+.tieu1{
+    margin-top: 200px;
+    text-align: center;
+}
+.nav-mobile{
+    position:fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+    transform: translateX(100%);
+   
+}
+.mobile-list{
+    margin-top: 38px;
+    list-style: none;
+}
+.nav-link-mobile{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.list-item{
+    margin-top: 10px;
+}
+.nav__mobile{
+    font-size: 30px;
+    float: right;
+    top: 5px;
+}
