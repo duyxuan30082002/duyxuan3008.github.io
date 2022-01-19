@@ -36,8 +36,32 @@
     .bann{
         display: none;
     }
+    .danhmuc{
+        display: none;
+    }
+    .ketnoi,
+    .tongdai,
+    .điachi{
+        width: 100%;
+        text-align: center;
+    }
+    .tieu{
+        margin-top: 10px;
+    }
+    .nav-ovelay{
+        display: block;
+    }
+    .submit5,
+    .submit4,
+    .submit1{
+        width: 280px;
+        margin-top: 5px;
+    }
+    .nav-mobile{
+        display: block;
+    }
+  
     
-
 }
 /*pc*/
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
@@ -70,10 +94,18 @@
     .bann{
         display: none;
     }
-    
+    .giohang{
+        width: 230px;
+    }
+    .thongbao1{
+        display: none;
+    }
 }
 @media  only screen and (min-width: 1023px) and (max-width: 1239px)  {
     .columm{
         width: 20%;
+    }
+    .giohang{
+        width: 270px;
     }
 }
