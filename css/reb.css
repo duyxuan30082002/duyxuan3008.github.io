@@ -18,7 +18,7 @@
         display: none;
     }
     .header{
-        height: 40px;
+        height: 80px;
     }
     .banner {
         width: 100%;
@@ -31,7 +31,7 @@
         display: block;
     }
     .banne{
-        padding-top: 40px;
+        padding-top: 80px;
     }
     .bann{
         display: none;
@@ -51,17 +51,22 @@
     .nav-ovelay{
         display: block;
     }
-    .submit5,
+    
     .submit4,
     .submit1{
-        width: 280px;
-        margin-top: 5px;
+        width: 310px;
+        margin-top: 10px;
+    }
+    .submit5{
+        margin-top: 10px;
+        width: 319px;
     }
     .nav-mobile{
         display: block;
-    }
-  
-    
+    } 
+  .danhmuc-mobile{
+      display: block;
+  }
 }
 /*pc*/
 @media only screen and (min-width: 740px) and (max-width: 1023px) {

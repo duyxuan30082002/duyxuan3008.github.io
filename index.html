@@ -34,19 +34,21 @@
                         <li class="header_item"><a class="header_link" href="#lienhe"><i
                                     class="far fa-question-circle"></i>Liên hệ </a></li>
 
-                        <li class="header_item_strong1"><a class="header_link" href=""> Đăng nhập</a></li>
-                        <li class="header_item_strong"><a class="header_link" href=""> Đăng kí</a></li>
+                        <li class="header_item_strong1"><a class="header_link" href=""> Đăng ký</a></li>
+                        <li class="header_item_strong"><a class="header_link" href=""> Đăng nhập</a></li>
                     </ul>
                 </nav>
+                <input type="checkbox" name="" hidden class="nav-input" id="nav-checkbox">
+                <label  for="nav-checkbox" class="ovelay"></label>
                 <nav class="nav-mobile">
-                    <div class="nav__mobile"><i class="fas fa-times"></i>
-                    </div>
-                    <ul class="mobile-list">
-                        <li class="list-item"><a class="nav-link-mobile" href=""><i class="fas fa-home"></i>Trang chủ</a></li>
+                    <label for="nav-checkbox" class="nav__mobile"><i class="fas fa-times"></i>
+                    </label>
+                    <ul class="mobile-list danhmuc-mobile">
+                        <li class="list-item"><a class="nav-link-mobile" href="#home"><i class="fas fa-home"></i>Trang chủ</a></li>
                         <li class="list-item"><a class="nav-link-mobile" href=""><i class="far fa-bell"></i>Thông báo </a></li>
                         <li class="list-item"><a class="nav-link-mobile" href="#lienhe"><i class="far fa-question-circle"></i>Liên hệ </a></li>
                         <li class="list-item"><a class="nav-link-mobile" href=""><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
-                        <li class="list-item"><a class="nav-link-mobile" href=""><i class="fas fa-sign-in-alt"></i> Đăng kí</a></li>
+                        <li class="list-item"><a class="nav-link-mobile" href=""><i class="fas fa-sign-in-alt"></i> Đăng ký</a></li>
                     </ul>
 
                 </nav>
@@ -64,7 +66,7 @@
                     <div class="header-mobi">
                         <a class="cart3" href=""><i class="fas fa-search"></i></a>
                         <a class="cart3" href=""><i class=" icon2 fas fa-cart-plus"></i></a>
-                        <a class="cart3" href=""><i class="fas fa-bars"></i></i></a>
+                        <label for="nav-checkbox" class="cart3"><i class="fas fa-bars"></i></label>
                     </div>
                     
                 </div>
@@ -80,8 +82,19 @@
                     </ul>
                 </div>
             </div>
+             <div class="danhmuc-mobile">
+            <ul class="hang">
+                <li class="hang1 a2"><a class="header_link-mobile" href="#home">Trang chủ</a> </li>
+                <li class="hang1 a2"><a class="header_link-mobile" href="#samsung">Samsung</a> </li>
+                <li class="hang1 a2"><a class="header_link-mobile" href="#iphone">iphone</a> </li>
+                <li class="hang1 a2"><a class="header_link-mobile" href="#oppo">oppo</a> </li>
+                <li class="hang1 a2"><a class="header_link-mobile" href="#xiaomi">xiaomi</a> </li>
+                <li class="hang1 a2"><a class="header_link-mobile" href="#vivo">vivo</a> </li>
+                <li class="hang1"><a class="header_link-mobile" href="#realme">Realme</a> </li>
+            </ul>
         </div>
-
+        </div>
+       
         <div class="grid wide main" id="home">
             <div class="banne">
                 <img src="./imget/banne1.png" alt="" class="banner">
@@ -835,7 +848,7 @@
                 <div class=" columm">
                     <a class="sanpham" href="">
                         <p class="tragop">Trả Góp 0%</p><img src="./imget/sanphamiphone.png" class="imgg" alt="">
-                        <p class="ten">Điện thoại iPhone 13 Pro 512GB Bạc </p>
+                        <p class="ten">Điên thoại iphone 13 pro 512Gb bạc </p>
                         <div class="gia">
                             <p class="giagoc"><del>25,897,43đ</del> -8%</p>
                             <div class="ban"><span class="giamoi">23,543,67đ</span>
@@ -954,6 +967,29 @@
                     return false;
                 });
                 activeTab($('.danhmuc li:first-child'));
+
+
+            });
+
+        </script>
+          <script language="javascript">
+            $(document).ready(function () {
+                function activeTab(obj) {
+                    $('.app ul li').removeClass('active');
+
+                    $(obj).addClass('active');
+
+                    var id = $(obj).find('a').attr('href');
+
+                    $('.main').hide();
+
+                    $(id).show();
+                }
+                $('.danhmuc-mobile li').click(function () {
+                    activeTab(this);
+                    return false;
+                });
+                activeTab($('.danhmuc-mobile li:first-child'));
 
 
             });
